@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Order changes the class when hovered 1`] = `
+<div
+  className="row justify-content-md-center"
+>
+  <div
+    className="col-md-8"
+  >
+    <h1
+      className="text-center"
+    >
+      Your Selection
+    </h1>
+    <br />
+    <br />
+  </div>
+</div>
+`;

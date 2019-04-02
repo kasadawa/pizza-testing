@@ -1,0 +1,392 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Order changes the class when hovered 1`] = `
+<div
+  className="mitko"
+>
+  <div
+    className="media"
+  >
+    <img
+      className="mr-3 resize"
+      src="margarita.jpg"
+    />
+    <div
+      className="media-body"
+    >
+      <h5
+        className="mt-0"
+      >
+        Margarita
+      </h5>
+      Ingredients: 
+      tomato, and other ingredience
+      <div
+        className="col-md-4"
+      >
+        <p>
+          Quantity 
+          <span>
+            1
+          </span>
+          <i
+            className="fas fa-plus"
+            onClick={[Function]}
+          />
+          <i
+            className="fas fa-minus"
+            onClick={[Function]}
+          />
+        </p>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-4"
+        >
+          <div
+            className="input-group mb-3"
+          >
+            <div
+              className="input-group-prepend"
+            >
+              <label
+                className="input-group-text"
+                htmlFor="inputGroupSelect01"
+              >
+                Pizza Style
+              </label>
+            </div>
+            <select
+              className="custom-select"
+              id="inputGroupSelect01"
+              onChange={[Function]}
+            >
+              <option
+                selected={true}
+                value="clasic"
+              >
+                clasic
+              </option>
+              <option
+                value="italian"
+              >
+                italian
+              </option>
+            </select>
+          </div>
+        </div>
+        <div
+          className="col-md-4"
+        />
+        <div
+          className="col-md-4"
+        >
+          <button
+            className="btn btn-success"
+            onClick={[Function]}
+          >
+            Add to basket
+          </button>
+        </div>
+      </div>
+      <div
+        className="col-md-4"
+      >
+        <div
+          className="input-group mb-3"
+        >
+          <div
+            className="form-check"
+          >
+            <input
+              className="form-check-input"
+              id="cheese0"
+              onChange={[Function]}
+              type="checkbox"
+              value="cheese"
+            />
+            <label
+              className="form-check-label"
+              htmlFor="cheese0"
+            >
+              Extra Cheese
+            </label>
+            <br />
+            <input
+              className="form-check-input"
+              id="tomato0"
+              onChange={[Function]}
+              type="checkbox"
+              value="tomato"
+            />
+            <label
+              className="form-check-label"
+              htmlFor="tomato0"
+            >
+              Extra Tomato
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="media"
+  >
+    <img
+      className="mr-3 resize"
+      src="devil.jpg"
+    />
+    <div
+      className="media-body"
+    >
+      <h5
+        className="mt-0"
+      >
+        Devil pizza
+      </h5>
+      Ingredients: 
+      ham,tomato, and other ingredience
+      <div
+        className="col-md-4"
+      >
+        <p>
+          Quantity 
+          <span>
+            1
+          </span>
+          <i
+            className="fas fa-plus"
+            onClick={[Function]}
+          />
+          <i
+            className="fas fa-minus"
+            onClick={[Function]}
+          />
+        </p>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-4"
+        >
+          <div
+            className="input-group mb-3"
+          >
+            <div
+              className="input-group-prepend"
+            >
+              <label
+                className="input-group-text"
+                htmlFor="inputGroupSelect01"
+              >
+                Pizza Style
+              </label>
+            </div>
+            <select
+              className="custom-select"
+              id="inputGroupSelect01"
+              onChange={[Function]}
+            >
+              <option
+                selected={true}
+                value="clasic"
+              >
+                clasic
+              </option>
+              <option
+                value="italian"
+              >
+                italian
+              </option>
+            </select>
+          </div>
+        </div>
+        <div
+          className="col-md-4"
+        />
+        <div
+          className="col-md-4"
+        >
+          <button
+            className="btn btn-success"
+            onClick={[Function]}
+          >
+            Add to basket
+          </button>
+        </div>
+      </div>
+      <div
+        className="col-md-4"
+      >
+        <div
+          className="input-group mb-3"
+        >
+          <div
+            className="form-check"
+          >
+            <input
+              className="form-check-input"
+              id="cheese1"
+              onChange={[Function]}
+              type="checkbox"
+              value="cheese"
+            />
+            <label
+              className="form-check-label"
+              htmlFor="cheese1"
+            >
+              Extra Cheese
+            </label>
+            <br />
+            <input
+              className="form-check-input"
+              id="tomato1"
+              onChange={[Function]}
+              type="checkbox"
+              value="tomato"
+            />
+            <label
+              className="form-check-label"
+              htmlFor="tomato1"
+            >
+              Extra Tomato
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="media"
+  >
+    <img
+      className="mr-3 resize"
+      src="calcone.jpg"
+    />
+    <div
+      className="media-body"
+    >
+      <h5
+        className="mt-0"
+      >
+        Calcone
+      </h5>
+      Ingredients: 
+      mushrooms,ham,tomato, and other ingredience
+      <div
+        className="col-md-4"
+      >
+        <p>
+          Quantity 
+          <span>
+            1
+          </span>
+          <i
+            className="fas fa-plus"
+            onClick={[Function]}
+          />
+          <i
+            className="fas fa-minus"
+            onClick={[Function]}
+          />
+        </p>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-4"
+        >
+          <div
+            className="input-group mb-3"
+          >
+            <div
+              className="input-group-prepend"
+            >
+              <label
+                className="input-group-text"
+                htmlFor="inputGroupSelect01"
+              >
+                Pizza Style
+              </label>
+            </div>
+            <select
+              className="custom-select"
+              id="inputGroupSelect01"
+              onChange={[Function]}
+            >
+              <option
+                selected={true}
+                value="clasic"
+              >
+                clasic
+              </option>
+              <option
+                value="italian"
+              >
+                italian
+              </option>
+            </select>
+          </div>
+        </div>
+        <div
+          className="col-md-4"
+        />
+        <div
+          className="col-md-4"
+        >
+          <button
+            className="btn btn-success"
+            onClick={[Function]}
+          >
+            Add to basket
+          </button>
+        </div>
+      </div>
+      <div
+        className="col-md-4"
+      >
+        <div
+          className="input-group mb-3"
+        >
+          <div
+            className="form-check"
+          >
+            <input
+              className="form-check-input"
+              id="cheese2"
+              onChange={[Function]}
+              type="checkbox"
+              value="cheese"
+            />
+            <label
+              className="form-check-label"
+              htmlFor="cheese2"
+            >
+              Extra Cheese
+            </label>
+            <br />
+            <input
+              className="form-check-input"
+              id="tomato2"
+              onChange={[Function]}
+              type="checkbox"
+              value="tomato"
+            />
+            <label
+              className="form-check-label"
+              htmlFor="tomato2"
+            >
+              Extra Tomato
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
