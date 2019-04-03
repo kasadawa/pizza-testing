@@ -10,7 +10,7 @@ class Nav extends React.Component {
 
     constructor(props){
       super(props);
-      const orders = window.sessionStorage.getItem('ordernum') || '';
+      var orders = window.sessionStorage.getItem('ordernum') || '';
       
       this.state = {orders};
     }
@@ -48,7 +48,7 @@ class Nav extends React.Component {
 
                   
                       <button onClick={this.redirect.bind(this)} className="btn btn-outline-success my-2 my-sm-0" >
-                        <i className="fas fa-shopping-basket"></i> {this.state.orders}
+                        <i className="fas fa-shopping-basket"></i> <span id="ordernum">{this.state.orders}</span>
                       </button>
                 
 

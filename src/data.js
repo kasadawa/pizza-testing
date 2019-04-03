@@ -28,3 +28,28 @@ prices.set('Calcone',15)
 prices.set('italian', 2) 
 prices.set('exstra cheese', 1.3) 
 prices.set('exstra tomato', 3)
+
+
+export function cloneArr(arr){
+    return arr.map((val)=>{
+        if(typeof val === 'object'){
+            return cloneObj(val);
+        }
+    })
+}
+
+export function cloneObj(obj){
+    var copy = {} ; 
+    for(let key in obj){
+        if(obj.hasOwnProperty(key)){
+            if(typeof obj[key] === 'object' && !Array.isArray(obj[key])){
+                copy[key] = cloneObj(obj[key]);
+            }else if( Object.prototype.toString.call(obj[key]) === '[object Array]'){
+                copy[key] =[];
+            }else{
+                copy[key] = obj[key];
+            }
+        }
+    }
+    return copy; 
+}

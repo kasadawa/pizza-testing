@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pizza component snapshot 1`] = `
+<div>
+  <div
+    className="media"
+  >
+    <img
+      alt=""
+      className="mr-3 resize"
+    />
+    <div
+      className="media-body"
+    >
+      <h5
+        className="mt-0"
+      />
+      Ingredients: 
+      <div
+        className="col-md-4"
+      >
+        <p>
+          Quantity 
+          <span />
+          <i
+            className="fas fa-plus"
+            onClick={[Function]}
+          />
+          <i
+            className="fas fa-minus"
+            onClick={[Function]}
+          />
+        </p>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-4"
+        >
+          <div
+            className="input-group mb-3"
+          >
+            <div
+              className="input-group-prepend"
+            >
+              <label
+                className="input-group-text"
+                htmlFor="inputGroupSelect0undefined"
+              >
+                Pizza Style
+              </label>
+            </div>
+            <select
+              className="custom-select"
+              id="inputGroupSelect0undefined"
+              onChange={[Function]}
+            >
+              <option
+                selected={true}
+                value="clasic"
+              >
+                clasic
+              </option>
+              <option
+                value="italian"
+              >
+                italian
+              </option>
+            </select>
+          </div>
+        </div>
+        <div
+          className="col-md-4"
+        />
+        <div
+          className="col-md-4"
+        >
+          <button
+            className="btn btn-success"
+            onClick={[Function]}
+          >
+            Add to basket
+          </button>
+        </div>
+      </div>
+      <div
+        className="col-md-4"
+      >
+        <div
+          className="input-group mb-3"
+        >
+          <div
+            className="form-check"
+          >
+            <input
+              className="form-check-input"
+              id="cheeseundefined"
+              onChange={[Function]}
+              type="checkbox"
+              value="cheese"
+            />
+            <label
+              className="form-check-label"
+              htmlFor="cheeseundefined"
+            >
+              Extra Cheese
+            </label>
+            <br />
+            <input
+              className="form-check-input"
+              id="tomatoundefined"
+              onChange={[Function]}
+              type="checkbox"
+              value="tomato"
+            />
+            <label
+              className="form-check-label"
+              htmlFor="tomatoundefined"
+            >
+              Extra Tomato
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
