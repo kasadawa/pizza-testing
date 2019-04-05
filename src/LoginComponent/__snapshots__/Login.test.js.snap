@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login component snapshot 1`] = `
+<div
+  className="row justify-content-md-center"
+>
+  <div
+    className="col-md-6"
+  >
+    <form>
+      <div
+        className="form-group"
+      >
+        <label
+          htmlFor="exampleInputEmail1"
+        >
+          Email address
+        </label>
+        <input
+          aria-describedby="emailHelp"
+          className="form-control"
+          id="exampleInputEmail1"
+          onChange={[Function]}
+          placeholder="Enter email"
+          type="email"
+          value=""
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <label
+          htmlFor="exampleInputPassword1"
+        >
+          Password
+        </label>
+        <input
+          className="form-control"
+          id="exampleInputPassword1"
+          onChange={[Function]}
+          placeholder="Password"
+          type="password"
+          value=""
+        />
+      </div>
+      <button
+        className="btn btn-primary"
+        id="submitData"
+        onClick={[Function]}
+        type="submit"
+      >
+        Submit
+      </button>
+    </form>
+  </div>
+</div>
+`;

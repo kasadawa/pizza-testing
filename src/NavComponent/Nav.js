@@ -1,6 +1,7 @@
 import React from 'react';
 import Menu from '../MenuComponent/Menu';
 import Login from '../LoginComponent/Login';
+import Register from '../RegisterComponent/Register';
 import Order from '../OrderComponent/Order';
 import Home from '../HomeComponent/Home';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
@@ -41,7 +42,10 @@ class Nav extends React.Component {
                         </li>
                         <li className="nav-item">
                             <Link className='nav-link' to="/login/">Login</Link>
-                        
+                        </li>
+
+                        <li className="nav-item">
+                            <Link className='nav-link' to="/register/">Sign in</Link>
                         </li>
                     </ul>
 
@@ -61,6 +65,7 @@ class Nav extends React.Component {
           <Route path="/menu/" component={Menu} />
           <Route path="/order/" component={Order} />
           <Route path="/login/" component={Login} />
+          <Route path="/register/" component={Register} />
         </div>
       </Router>
       );
